@@ -1,12 +1,16 @@
 <mvc:View
-	controllerName="sap.ui.progettoSAPUI5.controller.App"
+	controllerName="it.tuoNamespace.progettoOpenUI5.controller.App"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
 	>
 	<Page title="{i18n>titoloPaginaHome}">
 		<content>
-			<mvc:XMLView viewName="sap.ui.progettoSAPUI5.view.PannelloSaluto"/>
-			<mvc:XMLView viewName="sap.ui.progettoSAPUI5.view.TabellaFattura"/>
+			<!-- Area di implementazione dei componenti grafici
+			Es.:
+			   importazione di pannelli implementati in altre view
+			-->
+			<mvc:XMLView viewName="sap.ui.progettoSAPUI5.view.Pannello1"/>
+			<mvc:XMLView viewName="sap.ui.progettoSAPUI5.view.Pannello2"/>
 		</content>
 	</Page>
 </mvc:View>
