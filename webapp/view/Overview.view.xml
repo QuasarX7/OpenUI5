@@ -1,0 +1,10 @@
+<mvc:View
+	controllerName="it.quasar_x7.openui5.sito.controller.App"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Page title="CIAO">
+		<content>
+			<!-- CODICE PAGINA -->
+		</content>
+	</Page>
+</mvc:View>
